@@ -1,21 +1,21 @@
 {
   "schema": 1,
   "paths": {
-    "HANDOFF.2026-11-18.prev.md": {
+    "README.md": {
       "write": [
         "haiku",
         "sonnet",
         "opus"
       ],
-      "why": "archived prior handoff documentation"
+      "why": "project overview, screenshots, build and usage documentation"
     },
-    "HANDOFF.md": {
+    "docs/": {
       "write": [
         "haiku",
         "sonnet",
         "opus"
       ],
-      "why": "audit and implementation history notes"
+      "why": "handoff logs, archived audits, and README screenshots"
     },
     "assets/": {
       "write": [
