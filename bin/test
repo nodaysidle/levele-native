@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+"$ROOT/bin/build"
+OUT=$(mktemp -d)
+trap 'rm -rf "$OUT"' EXIT
+QT_QPA_PLATFORM=offscreen "$ROOT/build/levele" --selftest "$OUT"
+QT_QPA_PLATFORM=offscreen "$ROOT/build/levele" --theme-sweep

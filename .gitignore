@@ -1,0 +1,12 @@
+build/
+build-tests/
+build-harness/
+*.o
+moc_*
+qrc_*
+Makefile
+.qmake.stash
+levele
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/

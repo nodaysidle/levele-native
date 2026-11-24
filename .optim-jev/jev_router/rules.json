@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "paths": {
+    "HANDOFF.2026-11-18.prev.md": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "archived prior handoff documentation"
+    },
+    "HANDOFF.md": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "audit and implementation history notes"
+    },
+    "assets/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "app SVG icon bundled via resources.qrc"
+    },
+    "bin/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "build, install, and offscreen selftest shell wrappers"
+    },
+    "build-harness/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "generated qmake build output for QML harness; do not edit"
+    },
+    "build-tests/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "generated qmake build output for unit tests; do not edit"
+    },
+    "graft/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "regenerable graft repo-map cache; rebuild via graft build"
+    },
+    "install.sh": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "idempotent per-user installer and desktop entry generator"
+    },
+    "levele.pro": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "qmake project manifest listing all C++ sources and headers"
+    },
+    "qml/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "Qt Quick 6 screens wired to Studio and Theme properties"
+    },
+    "qml/ui/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "custom-painted Basic-style controls using theme tokens and a11y"
+    },
+    "resources.qrc": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "Qt resource manifest embedding all QML files and assets"
+    },
+    "src/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "C++17 Qt Quick app core; data, rendering, and state"
+    },
+    "src/canvasitem.cpp": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "canvas hit-testing, gestures, zoom/pan, and inline text; subtle invariants"
+    },
+    "src/exporter.cpp": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "threaded PNG/PDF/GIF export, atomic writes, bounded caches; subtle concurrency"
+    },
+    "src/portalfilechooser.cpp": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "async D-Bus portal file chooser with Qt fallback"
+    },
+    "src/studio.cpp": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "central controller: undo, trash, locks, async exports, persistence; complex"
+    },
+    "src/theme.cpp": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "Omarchy/Hyprland theme loader, WCAG contrast, live socket reload"
+    },
+    "tests/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "headless Qt unit tests and WCAG contrast checker"
+    },
+    "tests/qml-harness/": {
+      "write": [
+        "haiku",
+        "sonnet",
+        "opus"
+      ],
+      "why": "offscreen QML acceptance harness compiling app sources directly"
+    }
+  }
+}

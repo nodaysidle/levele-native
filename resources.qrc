@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Main.qml</file>
+        <file>qml/Dashboard.qml</file>
+        <file>qml/Editor.qml</file>
+        <file>qml/CanvasStage.qml</file>
+        <file>qml/LayersPanel.qml</file>
+        <file>qml/Inspector.qml</file>
+        <file>qml/PageStrip.qml</file>
+        <file>qml/ExportDialog.qml</file>
+        <file>qml/ShortcutsOverlay.qml</file>
+        <file>qml/ui/Btn.qml</file>
+        <file>qml/ui/IconBtn.qml</file>
+        <file>qml/ui/AlignBtn.qml</file>
+        <file>qml/ui/NumField.qml</file>
+        <file>qml/ui/ColorChip.qml</file>
+        <file>qml/ui/Combo.qml</file>
+        <file>qml/ui/Section.qml</file>
+        <file>qml/ui/Caption.qml</file>
+        <file>qml/ui/Toggle.qml</file>
+        <file>assets/levele.svg</file>
+    </qresource>
+</RCC>
